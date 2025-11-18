@@ -1,4 +1,4 @@
-# 1️⃣ Admin login
+# Admin login
 def admin_login(username, password):
     # Use parentheses to group the OR condition
     if (username == "admin" or username == "ADMIN") and password == "12345":
@@ -7,7 +7,7 @@ def admin_login(username, password):
         return "Access denied"
 
 
-# 2️⃣ How's the weather
+# How's the weather
 def hows_the_weather(temp):
     if temp < 40:
         return "It's brisk out there!"
@@ -19,7 +19,7 @@ def hows_the_weather(temp):
         return "It's perfect out there!"
 
 
-# 3️⃣ FizzBuzz
+#  FizzBuzz
 def fizzbuzz(num):
     if num % 3 == 0 and num % 5 == 0:
         return "FizzBuzz"
@@ -31,7 +31,7 @@ def fizzbuzz(num):
         return num
 
 
-# 4️⃣ Calculator
+#  Calculator
 def calculator(operation, num1, num2):
     if operation == "+":
         return num1 + num2
